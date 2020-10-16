@@ -1,0 +1,63 @@
+/* Deel 1 */
+.menu__item:nth-child(1):hover {  
+    color: lightblue;
+    font-weight: bold;
+}
+
+.menu__item:nth-child(2):active {
+    color: red;
+    font-style: italic;
+}
+
+.menu__item:nth-child(3):visited {
+    color: yellow;
+}
+
+.menu__textarea:focus {
+    color: green;
+    font-size: 20px;
+}
+
+/* Deel 2 */
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.navbar {
+    display: flex;
+    background-color: darkblue;
+    padding: 0em;
+}
+.navbar__item {
+    list-style: none;
+    font-size: 1.3em;
+    padding: 0.5em 2em 0.5em 0.5em;
+}
+
+.navbar__item:first-child {
+    padding: 0.5em 2em 0.5em 0em;
+}
+
+nav li.currentPage {
+    background-color: darkslategrey;
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
+}
+
+input#navbar__searchbar {
+    outline: none;
+    border: none;
+    margin: 0.5em;
+    padding: 0.2em 0.8em;
+}
+
+button {
+    margin: 0.5em 0em;
+}
+input#navbar__searchbar:focus {
+    border: 2px solid aqua;
+}
